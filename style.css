@@ -16,7 +16,7 @@
 }
 .carousel-caption {
     text-align: left !important;
-    margin-bottom: 130px;
+    margin-bottom: 200px;
     z-index: 2;
 }
 
@@ -24,4 +24,40 @@
     font-size: 40px;
     white-space: nowrap;
     text-transform: uppercase;
+}
+
+#companies {
+    background-color: #212529;
+     color: #b5b5b5;
+    margin-top: -150px;
+}
+
+#companies .top-row {
+    margin-top: 25%;
+}
+#companies .companies-logo {
+    width: 100%;
+}
+
+.card-image img {
+    width: 100%;
+    height: 250px !important;
+    object-fit: cover;
+}
+
+#blog {
+    margin-top: 100px !important;
+}
+
+.blog-card {
+  width: 100% !important;
+}
+
+@media (max-width: 650px) {
+    .carousel-caption h5 {
+        font-size: 35px;
+    }
+     #companies .companies-logo {
+    width: 65%;
+  }
 }
